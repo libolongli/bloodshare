@@ -8,6 +8,6 @@ $config=dirname(__FILE__).'/protected/config/main.php';
 defined('YII_DEBUG') or define('YII_DEBUG',true);
 // specify how many levels of call stack should be shown in each log message
 defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
-echo "1111111122222222222222221333333333333333333333";
+echo "11111111222222222222222213333344444444444";
 require_once($yii);
 Yii::createWebApplication($config)->run();
